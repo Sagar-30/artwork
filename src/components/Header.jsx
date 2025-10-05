@@ -66,11 +66,18 @@ const Header = () => {
         <div className="mobile-nav-content">
           <Link 
             className="mobile-nav-link" 
+            to="/"
+            onClick={closeMobileMenu}
+          >
+            Home
+          </Link>
+          {/* <Link 
+            className="mobile-nav-link" 
             to="/about"
             onClick={closeMobileMenu}
           >
             About
-          </Link>
+          </Link> */}
           <Link 
             className="mobile-nav-link" 
             to="/projects"
